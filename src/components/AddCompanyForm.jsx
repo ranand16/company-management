@@ -3,7 +3,7 @@ import { TextInput, Button, Group, Textarea } from "@mantine/core";
 import PropTypes from "prop-types";
 import { createCompany } from "../api/api";
 import { generateUUID10 } from "../utils/helper";
-
+// re commit
 /**
  * Form to add a new company.
  *
