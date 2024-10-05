@@ -9,7 +9,18 @@ export const api = axios.create({
 });
 
 export const fetchCompany = (id) => api.get(`/companies/${id}`);
-export const createCompany = (data) => api.post("/companies", data);
+export const createCompany = (data) => api.post(`/company?apiKey=${API_KEY}`, 
+    {
+        apiKey: API_KEY, 
+        companyModel: data,
+        
+    },
+    {
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    }
+);
 
 
 /**
