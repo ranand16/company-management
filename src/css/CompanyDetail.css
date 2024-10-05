@@ -1,0 +1,36 @@
+@import "./variables.css";
+
+.company-detail-card {
+    background-color: var(--card-background);
+    border-radius: var(--border-radius);
+    box-shadow: 0 2px 8px var(--shadow-color);
+    padding: 2rem;
+}
+
+.company-detail-name {
+    color: var(--secondary-color);
+    font-size: var(--font-size-lg);
+    margin-bottom: 0.5rem;
+}
+
+.company-detail-website,
+.company-detail-email {
+    font-size: var(--font-size-sm);
+    color: var(--primary-color);
+}
+
+.badge {
+    border-radius: var(--border-radius);
+    padding: 0.5rem 1rem;
+    margin: 0.25rem;
+    color: white;
+    font-size: var(--font-size-sm);
+}
+
+.industry-badge {
+    background-color: var(--primary-color);
+}
+
+.sector-badge {
+    background-color: var(--accent-color);
+}
