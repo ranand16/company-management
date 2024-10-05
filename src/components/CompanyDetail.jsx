@@ -24,8 +24,9 @@ const CompanyDetail = ({ company }) => {
                 <Group align="center" mb="sm">
                     <Avatar
                         src={company.logoUrl || null}
-                        size={80}
+                        size={50} // Smaller profile pic
                         radius="xl"
+                        className="avatar"
                     />
                     <div>
                         <Title order={2} className="company-detail-name">

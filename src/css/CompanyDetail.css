@@ -19,6 +19,12 @@
     color: var(--primary-color);
 }
 
+.avatar {
+    width: 50px; /* Small profile photo */
+    height: 50px; /* Small profile photo */
+    border-radius: 50%;
+}
+
 .badge {
     border-radius: var(--border-radius);
     padding: 0.5rem 1rem;
